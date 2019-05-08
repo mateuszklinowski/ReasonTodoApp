@@ -3,7 +3,7 @@
 
 var React = require("react");
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
-var App$ReactHooksTemplate = require("./App.bs.js");
+var App$ReactHooksTemplate = require("./app/App.bs.js");
 
 ReactDOMRe.renderToElementWithId(React.createElement(App$ReactHooksTemplate.make, {
           title: "Todo app"
